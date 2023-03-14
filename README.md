@@ -1,6 +1,6 @@
 # TasksNodeAPI
 
-TasksNodeAPI is a basic node js backend API server for tasks app
+TasksNodeAPI is a node js backend API server for tasks app
 
 # Stack
 - Node js
@@ -20,6 +20,7 @@ npm install
 ```javascript
 
 npm start
+npm run dev
 
 ## Contributing
 
