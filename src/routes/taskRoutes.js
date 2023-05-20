@@ -16,5 +16,11 @@ const routes = (app) => {
     .get(getTaskWhitID)
     .put(updateTask)
     .delete(deleteTask);
+
+    app.route("/user").post(addNewUser);
+
+    app.route("/login").post(login);
+
+    app.route("/newuser").post(addNewUserWithValidation);
 };
 export default routes;
