@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const Schema = mongoose.Schema;
 
-export const UserSchema = new Schema ({
+export const ProyectSchema = new Schema ({
     name : {
         type: String,
         required: 'Enter a first name'
